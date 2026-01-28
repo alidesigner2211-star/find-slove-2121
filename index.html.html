@@ -1,0 +1,84 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Cards</title>
+  <style>
+    body {
+      background-color: pink;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .card {
+      background-color:yellow;
+      border: 2px solid deeppink;
+      border-radius: 10px;
+      width: 260px;
+      text-align: center;
+      padding: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #000;
+    }
+
+    .card h2 {
+      margin-top: 10px;
+      color: #000;
+    }
+
+    .card p {
+      color: #333;
+      font-size: 14px;
+      text-align: center;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <img src="Rahim.jpeg" alt="Profile">
+      <h2>Rahim Khan</h2>
+      <p>Riham is best person. He is honest man. He is police man. Checking the network cables, modem and router. Reconnecting to Wi-Fi. Running Windows Network Diagnostics.</p>
+    </div>
+
+    <div class="card">
+      <img src="3.jpeg" alt="Profile">
+      <h2><b>Kifayat khan</b></h2>
+      <p>Kifayat is best person. He is honest man. He is police man. Checking the network cables, modem and router. Reconnecting to Wi-Fi. Running Windows Network Diagnostics.</p>
+    </div>
+
+    <div class="card">
+      <img src="2.PNG" alt="Profile">
+      <h2>Abubakar khan</h2>
+      <p>Abubakar is best person. He is honest man. He is police man. Checking the network cables, modem and router. Reconnecting to Wi-Fi. Running Windows Network Diagnostics.</p>
+    </div>
+  </div>
+</body>
+</html>
